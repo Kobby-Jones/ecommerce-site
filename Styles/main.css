@@ -1,0 +1,509 @@
+/* The logo styling*/
+#logo{
+ font-size: 50px;
+ padding-left: 0.9em;
+ text-decoration: none;
+}
+
+/* The header Section */
+#header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 20px 80px;
+    background: #E3E6F3;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+
+}
+/* The sticky position of the navbar */
+.sticky{
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+    top: 0;
+    left: o;
+}
+
+/* The navbar */
+#navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    nav-right: root;
+}
+
+/* The list containing the anchor tags */
+#navbar li{
+    list-style: none;
+    padding: 0 20px;
+    position: relative;
+    
+}
+
+/* Styling the anchor tags on the navbar */
+#navbar li a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: #1a1a1a;
+    text-transform: uppercase;
+    transition: 0.3s ease;
+}
+
+/* Hovering the anchor tag on the navbar */
+#navbar li a:hover,
+#navbar li a.active{
+    color: blueviolet;
+}
+
+/*  After Hovering  the anchor tags on the navbar navbar */
+#navbar li a.active::after,
+#navbar li a:hover::after{
+    content: "";
+    width: 30%;
+    height: 2px;
+    background: blueviolet;
+    position: absolute;
+    bottom: -4px;
+    left: 30px;
+}
+
+/* The hero section */ 
+#hero{
+    background-image: url("/images/hp-probook6470b.png");
+
+    height: 90vh;
+    width: 100%;
+    background-size: cover;
+    background-position: top 25% right 20%;
+    padding:0 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+/* The shop new button at the hero page */
+#hero button{
+    background-color:lightgreen;
+    padding: 15px 20px 15px 20px;
+    font-weight: 500;
+    border-radius: 10px;
+    border-color: lightgreen;
+    
+}
+/* The h1 and h2 tags at the hero section*/
+#hero h1,h2{
+    color:wheat;
+    font-family: Arial, Helvetica, sans-serif ;
+    size: 7rem;
+    font-weight: 900;
+    padding-right: 1em;
+}
+/* p tag at the hero section */
+#hero p{
+size: 5em;
+color:green;
+padding: 0.9em 0.9em;
+background-color: beige;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: bolder;
+}
+
+.section-p1{
+padding: 40px 80px;
+}
+
+/* The feature box that contain the services images */
+#feature .fe-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    text-align: center;
+    padding: 25px 15px;
+    border-radius: 4px;
+    margin: 15px 0;
+    padding-bottom: 0%;
+}
+
+/* p tags that describe our services*/
+#feature .para{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 0%;
+    padding: 0 0px;
+    background: #E3E6F3;
+    text-transform: uppercase;
+
+
+}
+/* Free delivery service*/
+#feature .para .free-delivery{
+    background-color:orangered;
+    color: #E3E6F3;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px 5px;
+    
+}
+/* The happy sale servce*/
+#feature .para .happy-sale{
+    background-color:indianred;
+    color: #E3E6F3;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 5px 5px;
+}
+/* The online ordering service */
+#feature .para .online-order{
+    background-color:deepskyblue;
+    color: #E3E6F3;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px 5px;
+}
+/* The save money service */
+#feature .para .save-money{
+    background-color:orange;
+    color: #E3E6F3;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px 5px;
+}
+/* the sales promotion service */
+#feature .para .sales-promo{
+    background-color: darkgreen;
+    color: #E3E6F3;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px 5px;
+}
+/* The 24/7 shopping service */
+#feature .para .shopping-247{
+    background-color:cornflowerblue;
+    color: #E3E6F3;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px 5px;
+}
+
+
+
+#products{
+    text-align: center;
+    height: 600px;
+}
+/* Products introduction section */
+#products .product-intro h1,
+#products .product-intro h2{
+color: green;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 1.5em;
+}
+
+/* The container holding the products*/
+#products .products-container{
+    width: 100%;
+    min-width: 20px;
+    height: 250px;
+    display: inline-flex;
+    flex-wrap:nowrap;
+    justify-content: space-between;
+    padding-top: 0px;
+    padding-bottom: 180px;
+}
+
+#products .products-container .product-1{
+    padding-bottom: 40px;
+}
+/* properties of the first product */
+
+/*The h1 tag*/
+#products .products-container .product-1 h1{
+    color:blue;
+    padding-top: 0%;
+    text-align: center;
+    
+}
+/* The stars*/
+#products .products-container .product-1 .star{
+   text-align: center;
+    padding-left: 0%;
+}
+/* The button*/
+#products .products-container .product-1 button{
+    border-radius: 10px;
+    padding: 0.4em 0.4em;
+    background-color:orange;
+    color: whitesmoke;
+
+    
+}
+/* The price */
+#products .products-container .product-1 .price{
+    color: darkgreen;
+}
+/* When the button is hovered*/
+#products .products-container .product-1 .btn-1:hover{
+    background-color: blue;
+    transition: 1s;
+}
+/* properties of the second product */
+.products-container .product-2 h1 {
+    color: blue;
+    padding-top: 85px;
+    text-align: center;
+
+}
+/* The Start properties*/
+.products-container .product-2 .star {
+    text-align: center;
+    padding-left: 0%;
+}
+/*The Button*/
+.products-container .product-2 button {
+    border-radius: 10px;
+    padding: 0.4em 0.4em;
+    position: relative;
+    background-color: orange;
+    color: whitesmoke;
+
+
+}
+/* The Price*/
+.products-container .product-2 .price {
+    color: darkgreen;
+}
+/* When the button is hovered*/
+.products-container .product-2 button:hover {
+    background-color: blue;
+    transition: 1s;
+}
+
+/* properties of the Third product */
+.products-container .product-3 h1 {
+    color: blue;
+    padding-top: 0%;
+    text-align: center;
+
+}
+
+/* The Start properties*/
+.products-container .product-3 .star {
+    text-align: center;
+    padding-left: 0%;
+}
+
+/*The Button*/
+.products-container .product-3 button {
+    border-radius: 10px;
+    padding: 0.4em 0.4em;
+    background-color: orange;
+    color: whitesmoke;
+
+
+}
+
+/* The Price*/
+.products-container .product-3 .price {
+    color: darkgreen;
+}
+
+/* When the button is hovered*/
+.products-container .product-3 button:hover {
+    background-color: blue;
+    transition: 1s;
+}
+
+/* properties of the Fourth product */
+.products-container .product-4 h1 {
+    color: blue;
+    padding-top: 85px;
+    text-align: center;
+
+}
+
+/* The Start properties*/
+.products-container .product-4 .star {
+    text-align: center;
+    padding-left: 0%;
+}
+
+/*The Button*/
+.products-container .product-4 button {
+    border-radius: 10px;
+    padding: 0.4em 0.4em;
+    background-color: orange;
+    color: whitesmoke;
+
+
+}
+
+/* The Price*/
+.products-container .product-4 .price {
+    color: darkgreen;
+}
+
+/* When the button is hovered*/
+.products-container .product-4 .star button:hover {
+    background-color: blue;
+    transition: 1s;
+}
+
+
+
+
+
+
+
+
+
+#products2 {
+    text-align: center;
+}
+
+/* The container holding the products*/
+#products2 .products-container2 {
+    width: 100%;
+    min-width: 20px;
+    height: 200px;
+    display: inline-flex;
+    justify-content: space-between;
+    padding-top: 20pxpx;
+}
+
+/* properties of the first product */
+
+/*The h1 tag*/
+.products-container2 .product-1 h1 {
+    color: blue;
+    padding-top: 0%;
+    text-align: center;
+
+}
+
+/* The stars*/
+.products-container2 .product-1 .star {
+    text-align: center;
+    padding-left: 0%;
+}
+
+/* The button*/
+.products-container2 .product-1 button {
+    border-radius: 10px;
+    padding: 0.4em 0.4em;
+    background-color: orange;
+    color: whitesmoke;
+
+
+}
+
+/* The price */
+.products-container2 .product-1 .price {
+    color: darkgreen;
+}
+
+/* When the button is hovered*/
+.products-container2 .product-1 button:hover {
+    background-color: blue;
+    transition: 1s;
+}
+
+/* properties of the second product */
+.products-container2 .product-2 h1 {
+    color: blue;
+    padding-top: 0px;
+    text-align: center;
+
+}
+
+/* The Start properties*/
+.products-container2 .product-2 .star {
+    text-align: center;
+    padding-left: 0%;
+}
+
+/*The Button*/
+.products-container2 .product-2 button {
+    border-radius: 10px;
+    padding: 0.4em 0.4em;
+    background-color: orange;
+    color: whitesmoke;
+
+
+}
+
+/* The Price*/
+.products-container2 .product-2 .price {
+    color: darkgreen;
+}
+
+/* When the button is hovered*/
+.products-container2 .product-2 button:hover {
+    background-color: blue;
+    transition: 1s;
+}
+
+/* properties of the Third product */
+.products-container2 .product-3 h1 {
+    color: blue;
+    padding-top: 60px;
+    text-align: center;
+
+}
+
+/* The Start properties*/
+.products-container2 .product-3 .star {
+    text-align: center;
+    padding-left: 0%;
+}
+
+/*The Button*/
+.products-container2 .product-3 button {
+    border-radius: 10px;
+    padding: 0.4em 0.4em;
+    background-color: orange;
+    color: whitesmoke;
+
+
+}
+
+/* The Price*/
+.products-container2 .product-3 .price {
+    color: darkgreen;
+}
+
+/* When the button is hovered*/
+.products-container2 .product-3 button:hover {
+    background-color: blue;
+    transition: 1s;
+}
+
+/* properties of the Fourth product */
+.products-container2 .product-4 h1 {
+    color: blue;
+    padding-top: 0px;
+    text-align: center;
+
+}
+
+/* The Start properties*/
+.products-container2 .product-4 .star {
+    text-align: center;
+    padding-left: 0%;
+}
+
+/*The Button*/
+.products-container2 .product-4 button {
+    border-radius: 10px;
+    padding: 0.4em 0.4em;
+    background-color: orange;
+    color: whitesmoke;
+
+
+}
+
+/* The Price*/
+.products-container2 .product-4 .price {
+    color: darkgreen;
+}
+
+/* When the button is hovered*/
+.products-container2 .product-4 button:hover {
+    background-color: blue;
+    transition: 1s;
+}
